@@ -8,7 +8,7 @@
    ========================================================================= */
 const CONFIG = {
   WHATSAPP: '5215518440848',          // número real con lada 52
-  TARJETA: '5555 3333 2222 9991',
+  TARJETA: '5512 3824 3211 4991',
   MONEDA: 'MXN',
   STORAGE_KEY: 'eah_estado_v1',
 
