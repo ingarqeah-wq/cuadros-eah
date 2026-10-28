@@ -4,7 +4,7 @@
    ========================================================================= */
 
 /* =========================================================================
-   1) CONFIGURACIÓN EDITABLE (cambia aquí sin tocar el resto)
+   1) CONFIGURACIÓN EDITABLE
    ========================================================================= */
 const CONFIG = {
   WHATSAPP: '5215518440848',          // número real con lada 52
@@ -24,8 +24,8 @@ const CONFIG = {
     {
       id: 'carta',
       nombre: 'Cuadro Carta — Modelo: Funcional, 6x8',
-      subtitulo: 'Bastidor MDF, Formato Escritorio / Portarretrato · $400',
-      descripcion: 'Cuadro Tamaño Carta con bastidores de MDF, Modelo: FUNCIONAL (chico), Color Caoba o Negro, Ideal para escritorio, buró o repisa: el recuerdo perfecto para tener siempre a la vista.',
+      subtitulo: 'Bastidor MDF, Formato Compacto · $400',
+      descripcion: 'Cuadro Tamaño Carta con bastidores de MDF, Modelo: FUNCIONAL (chico), Color Caoba o Negro, Ideal para Espacios Íntimos: el recuerdo perfecto para tener siempre a la vista.',
       precio: 400,
       imagenes: [
         'imagenes/carta_1_6x8.png',
@@ -345,8 +345,8 @@ const Galeria = (() => {
     }, true);
   }
 
-  // --- Slider estilo Amazon ---
-  let sliderImgs = [];      // rutas válidas (las que sí cargaron)
+  // --- Slider ---
+  let sliderImgs = [];      // rutas válidas
   let sliderIdx = 0;
 
   function construirSlider(p) {
@@ -474,7 +474,7 @@ const Galeria = (() => {
     limpiar();
     Pantallas.setTitulo('CUADROS ARTÍSTICOS DETALLES');
 
-    // --- SLIDER tipo Amazon ---
+    // --- SLIDER ---
     construirSlider(p);
 
     // Descripción
