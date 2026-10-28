@@ -1,4 +1,16 @@
 /* =========================================================================
+   EAH // CUADROS ARTÍSTICOS — Lógica maestra
+   © 2026 EAH Cuadros Artísticos. Todos los derechos reservados.
+
+   Este código es propiedad de EAH Cuadros Artísticos.
+   Prohibida su reproducción total o parcial, distribución o uso comercial
+   sin autorización expresa y por escrito del autor.
+
+   Contacto: WhatsApp 5518440848
+   Sitio: https://ingarqeah-wq.github.io/cuadros-eah/
+   ========================================================================= */
+
+/* =========================================================================
    EAH // CUADROS ARTÍSTICOS — Estilos maestros
    ========================================================================= */
 
@@ -105,7 +117,7 @@ html, body {
   gap: 10px;
 }
 .header h1 {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--accent);
   letter-spacing: 0.5px;
@@ -186,7 +198,7 @@ html, body {
   padding: 10px 14px;
   border-radius: 10px;
   margin: 6px 12px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.45;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -329,7 +341,7 @@ html, body {
 
 /* DETALLE DE PRODUCTO */
 .desc-producto {
-  font-size: 12px;
+  font-size: 14px;
   color: #ffffff;
   margin: 8px 12px;
   line-height: 1.5;
@@ -379,7 +391,7 @@ html, body {
   padding: 10px 12px;
   text-align: left;
   font-family: var(--fuente);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.5;
   cursor: pointer;
   white-space: pre-wrap;
@@ -397,13 +409,13 @@ html, body {
 
 /* SECCIONES Y MENSAJES */
 .seccion-titulo {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--info);
   margin: 15px 12px 6px;
 }
 .mensaje-vacio {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--danger);
   margin: 10px 12px;
   line-height: 1.5;
@@ -419,7 +431,7 @@ html, body {
   margin: 12px 10px 18px;
   border-radius: 8px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   cursor: pointer;
   border: 1px solid #25d366;
@@ -437,7 +449,7 @@ html, body {
 .campo { margin: 8px 15px; }
 .campo label {
   display: block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--texto);
   margin-bottom: 5px;
@@ -475,7 +487,7 @@ html, body {
   margin-bottom: 6px;
 }
 .specs p {
-  font-size: 11px;
+  font-size: 12px;
   color: #b0c4de;
   line-height: 1.6;
   white-space: pre-line;
@@ -495,7 +507,7 @@ html, body {
   color: #888;
   padding: 8px 10px;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 12px;
   margin-bottom: 6px;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -596,7 +608,7 @@ html, body {
   margin-bottom: 8px;
 }
 .tarjeta-socio p {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--wa-texto-bot);
   line-height: 1.55;
   margin-bottom: 6px;
@@ -607,7 +619,7 @@ html, body {
   margin-top: 4px;
 }
 .tarjeta-socio li {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--wa-texto-bot);
   padding: 3px 0 3px 16px;
   position: relative;
@@ -633,7 +645,7 @@ html, body {
   margin: 8px 10px;
   text-align: left;
   font-family: var(--fuente);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   cursor: pointer;
   line-height: 1.5;
@@ -647,6 +659,6 @@ html, body {
   display: block;
   color: #b0c4de;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 4px;
 }
